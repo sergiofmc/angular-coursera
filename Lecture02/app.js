@@ -5,7 +5,7 @@ var student = {
 
 document.addEventListener('DOMContentLoaded', contentLoad);
 
-function contenLoaded(event){
+function contentLoad(event){
   document.getElementById('name').addEventListener("keyup", keyup);
 }
 
