@@ -15,7 +15,6 @@ angular.module('Lunch-App', [])
     else{
       var totalComidas = calcularNumeroDeComidas($scope.text);
       $scope.totalComidas = totalComidas;
-      console.log(totalComidas);
       if($scope.totalComidas > 0 && $scope.totalComidas<=3){
         $scope.mensaje = "Enjoy!";
       }
@@ -32,8 +31,5 @@ angular.module('Lunch-App', [])
     console.log("largo = " + largo);
     return largo;
   }
-
 });
-
-
 })();
