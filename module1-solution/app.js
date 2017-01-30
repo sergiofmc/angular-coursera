@@ -32,7 +32,7 @@ angular.module('Lunch-App', [])
     var contador =0;
     for(var i = 0 ; i< largo;i++){
       console.log("Es valido? " + arrayOfLunch[i]!=="");
-      if(arrayOfLunch[i]!=undefined && arrayOfLunch[i]!="" ){
+      if(arrayOfLunch[i]!=undefined && arrayOfLunch[i].trim()!=="" ){
         contador++;
       }
     }
