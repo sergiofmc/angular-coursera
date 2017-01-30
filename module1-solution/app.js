@@ -35,6 +35,7 @@ angular.module('Lunch-App', [])
         contador++;
       }
     }
+    console.log("contador = " + contador);
     return contador;    //largo;
   }
 });
