@@ -31,8 +31,8 @@ angular.module('Lunch-App', [])
     console.log("largo = " + largo);
     var contador =0;
     for(var i = 0 ; i< largo;i++){
-      console.log(arrayOfLunch[i]);
-      if(arrayOfLunch[i]!=undefined && arrayOfLunch[i]=="" ){
+      console.log(arrayOfLunch[i]!="");
+      if(arrayOfLunch[i]!=undefined && arrayOfLunch[i]!="" ){
         contador++;
       }
     }
