@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Lunch-App">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>App Lunch</title>
   </head>
-  <body>
+  <body ng-controller="LunchAppController">
+    <input type="text" name="" value="" ng-model="texto">
+    <button type="button" name="button" ng-click="CheckIfTooMuch">Check If Too Much</button>
 
   </body>
 </html>
