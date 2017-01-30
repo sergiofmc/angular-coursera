@@ -17,6 +17,8 @@ angular.module('Lunch-App', [])
       $scope.totalComidas = totalComidas;
       if($scope.totalComidas > 0 && $scope.totalComidas<=3){
         $scope.mensaje = "Enjoy!";
+      }else if($scope.totalComidas == 0 ){
+        $scope.mensaje = "Please enter data first";
       }
       else{
         $scope.mensaje = "Too much!";
