@@ -27,7 +27,7 @@ angular.module('Lunch-App', [])
 
   function calcularNumeroDeComidas(string) {
     var arrayOfLunch = string.split(',');
-    var largo = arrayOfLunch.lengt;
+    var largo = parseInt(arrayOfLunch.lengt);
     return largo;
   }
 
