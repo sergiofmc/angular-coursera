@@ -29,7 +29,13 @@ angular.module('Lunch-App', [])
     var arrayOfLunch = string.split(',');
     var largo = parseInt(arrayOfLunch.length);
     console.log("largo = " + largo);
-    return largo;
+    var contador =0;
+    for(var i = 0 ; i< largo;i++){
+      if(arrayOfLunch[i]!=undefined && arrayOfLunch[i]=="" ){
+        contador++;
+      }
+    }
+    return contador;    //largo;
   }
 });
 })();
